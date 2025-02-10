@@ -15,11 +15,23 @@ hero:
       link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: JavaScript
+    details: En contrucción
+    link: /javascript
+    icon: 
+      src: .vitepress/assets/javascript-icon.svg
+
+  - title: TypeScript
+    details: En construcción
+    link: /typescript
+    icon: 
+      src: .vitepress/assets/typescript-icon.svg
+
+  - title: Python
+    details: En construcción
+    link: /python
+    icon: 
+      src: .vitepress/assets/python-icon.svg
+
 ---
 

@@ -7,22 +7,37 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Home', link: '/' }
     ],
 
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
+    sidebar: {
+      "/javascript/": [
+        {
+          text: 'Examples',
+          items: [
+            { text: 'Prueba', link: '/markdown-examples' },
+            { text: 'Prueba2', link: '/api-examples' }
+          ]
+        }
+      ],
+      "/": [
+        {
+          text: 'Examples',
+          items: [
+            { text: 'Markdown Examples', link: '/markdown-examples' },
+            { text: 'Runtime API Examples', link: '/api-examples' }
+          ]
+        }
+      ]
+    },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+      { icon: 'github', link: 'https://github.com/jdazar' },
+      { icon: 'linkedin', link: 'https://twitter.com/jdazar' }
+    ],
+
+    search: {
+      provider: 'local'
+    }
   }
 })
