@@ -19,19 +19,19 @@ features:
     details: En contrucción
     link: /javascript
     icon: 
-      src: .vitepress/assets/javascript-icon.svg
+      src: /icons/javascript.svg
 
   - title: TypeScript
     details: En construcción
     link: /typescript
     icon: 
-      src: .vitepress/assets/typescript-icon.svg
+      src: /icons/typescript.svg
 
   - title: Python
     details: En construcción
     link: /python
     icon: 
-      src: .vitepress/assets/python-icon.svg
+      src: /icons/python.svg
 
 ---
 
