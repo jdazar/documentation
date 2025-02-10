@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Mi Documentación",
   description: "Documentación de múltiples tecnologías que manejo",
+  base: "/documentation/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
