@@ -16,8 +16,10 @@ export default defineConfig({
         {
           text: 'Examples',
           items: [
-            { text: 'Prueba', link: '/markdown-examples' },
-            { text: 'Prueba2', link: '/api-examples' }
+            { text: 'Introducción', link: '/javascript/index.md' },
+            { text: 'Tipos de Datos', link: '/javascript/data-types.md' },
+            { text: 'Operadores', link: '/javascript/operators.md' },
+            { text: 'Condicionales y Bucles', link: '/javascript/loops-conditionals.md' }
           ]
         }
       ],
